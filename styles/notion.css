@@ -286,7 +286,11 @@
 
 .my-header {
   font-family: 'VT323', monospace;
-  font-weight: 600;
+  font-size: 26px;
+}
+
+.my-header span {
+  padding-left: 7px;
 }
 
 .notion {
