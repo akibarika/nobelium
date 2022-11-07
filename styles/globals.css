@@ -1,40 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
-  font-family: 'IBM Plex Sans';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-  font-named-instance: 'Regular';
-  src: url('/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
-}
 
-@font-face {
-  font-family: 'IBM Plex Sans';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: italic;
-  font-named-instance: 'Italic';
-  src: url('/fonts/IBMPlexSansVar-Italic.woff2') format('woff2');
-}
 
-@font-face {
-  font-family: 'Source Serif';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-  font-named-instance: 'Regular';
-  src: url('/fonts/SourceSerif.var.woff2') format('woff2');
-}
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* 常规颜色 */
+    --waline-white: #000;
+    --waline-light-grey: #666;
+    --waline-dark-grey: #999;
 
-@font-face {
-  font-family: 'Source Serif';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: italic;
-  font-named-instance: 'Italic';
-  src: url('/fonts/SourceSerif-Italic.var.woff2') format('woff2');
+    /* 布局颜色 */
+    --waline-color: #888;
+    --waline-bgcolor: #1e1e1e;
+    --waline-bgcolor-light: #272727;
+    --waline-border-color: #333;
+    --waline-disable-bgcolor: #444;
+    --waline-disable-color: #272727;
+
+    /* 特殊颜色 */
+    --waline-bq-color: #272727;
+
+    /* 其他颜色 */
+    --waline-info-bgcolor: #272727;
+    --waline-info-color: #666;
+  }
 }
 
 html {
