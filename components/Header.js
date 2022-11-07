@@ -70,7 +70,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link href="/">
             <a aria-label={BLOG.title}>
               <div className="h-6 text-black dark:text-gray-100 my-header">
-                Akiba <span className="text-gray-700 dark:text-gray-300">Rika</span>
+                Akiba<span className="text-gray-700 dark:text-gray-300">Rika</span>
               </div>
             </a>
           </Link>
