@@ -24,12 +24,11 @@ const CusdisComponent = dynamic(
 )
 
 const WalineComponent = dynamic(
-    () => {
-        return import('@/components/Waline')
-    },
-    { ssr: false }
+  () => {
+    return import('@/components/Waline')
+  },
+  { ssr: false }
 )
-
 
 const Comments = ({ frontMatter }) => {
   const router = useRouter()
