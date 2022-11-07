@@ -1,7 +1,7 @@
 const BLOG = {
   title: 'Orclandでの思い出の欠片 | Anime Share & Celebrate Thinking',
   author: '秋庭里香',
-  email: 'lxc89816@gmail.com',
+  email: 'lxclxc89816@gmail.com',
   link: 'http://akibarika.org',
   description: 'Just another website',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']

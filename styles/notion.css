@@ -1,5 +1,11 @@
 /* NOTION CSS OVERRIDE */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+.font-sans {
+  font-family: 'Roboto', sans-serif;
+}
+
 .notion {
   @apply text-gray-600 dark:text-gray-300;
   overflow-wrap: break-word;
