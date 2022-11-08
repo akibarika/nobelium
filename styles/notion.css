@@ -378,3 +378,17 @@ pre[class*='language-'] {
 .notion-collection-row {
   @apply hidden;
 }
+
+/*Comments*/
+
+.wl-count {
+  --tw-text-opacity: 1;
+  color: rgba(0,0,0,var(--tw-text-opacity))
+}
+
+@media (prefers-color-scheme: dark) {
+  .wl-count {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+  }
+}
