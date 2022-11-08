@@ -1,25 +1,23 @@
 /* NOTION CSS OVERRIDE */
+:root {
+  --waline-theme-color: #986794;
+  --waline-active-color: #7a5276;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
-    /* 常规颜色 */
-    --waline-white: #000;
+    --tw-text-opacity: 1;
     --waline-light-grey: #666;
     --waline-dark-grey: #999;
-
-    /* 布局颜色 */
     --waline-color: #fff;
     --waline-bgcolor: #1e1e1e;
     --waline-bgcolor-light: #272727;
     --waline-border-color: #333;
     --waline-disable-bgcolor: #444;
     --waline-disable-color: #272727;
-
-    /* 特殊颜色 */
     --waline-bq-color: #272727;
-
-    /* 其他颜色 */
     --waline-info-bgcolor: #272727;
-    --waline-info-color: #666;
+    --waline-info-color: rgba(209, 213, 219, var(--tw-text-opacity));
   }
 }
 
@@ -40,6 +38,7 @@
   @apply text-gray-600 dark:text-gray-300;
   overflow-wrap: break-word;
 }
+
 .notion,
 .notion-text,
 .notion-quote,
@@ -48,6 +47,7 @@
   @apply p-0;
   @apply my-3;
 }
+
 .notion-page-link {
   color: inherit;
 }
@@ -86,38 +86,49 @@ pre[class*='language-'] {
 .notion-bookmark:hover {
   @apply border-blue-400;
 }
+
 .notion-viewport {
   z-index: -10;
 }
+
 .notion-asset-caption {
   @apply text-center;
   @apply text-gray-500 dark:text-gray-400;
 }
+
 .notion-full-width {
   @apply px-0;
 }
+
 .notion-page {
   @apply w-auto;
   @apply px-0;
 }
+
 .notion-quote {
   padding: 0.2em 0.9em;
 }
+
 .notion-collection {
   @apply max-w-full;
 }
+
 .notion-collection > .notion-collection-header {
   @apply px-0 !important;
 }
+
 .notion-collection > .notion-table {
   @apply max-w-full !important;
 }
+
 .notion-collection > .notion-table > .notion-table-view {
   @apply px-0 !important;
 }
+
 .notion-collection-view-type {
   @apply hidden;
 }
+
 .notion-collection-row {
   @apply hidden;
 }
@@ -126,7 +137,7 @@ pre[class*='language-'] {
 
 .wl-count {
   --tw-text-opacity: 1;
-  color: rgba(0,0,0,var(--tw-text-opacity))
+  color: rgba(0, 0, 0, var(--tw-text-opacity))
 }
 
 @media (prefers-color-scheme: dark) {
